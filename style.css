@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+.container{
+    position: relative;
+}
+.power{
+    position: absolute;
+    bottom: 0;
+    top: -850px;
+    width: 90%;
+    height: 100vh;
+    color: white;
+    margin: 49px 65px;
+    border-radius: 20px;
+    font-size: 20px;
+    background: rgb(136, 134, 134);
+    background: rgba(46, 44, 44, 0.59);
+}
+#bg-image{
+    width: 94%;
+    margin: 20px 40px;
+    border-radius: 20px;
+}
+.power i{
+    background-color: rgb(212, 67, 67);
+    padding: 20px;
+    margin: 45px 90px;
+}
+.line i{
+    color: gray;
+    background: none;
+    margin: 0px 70px;
+}
+.line p{
+    display: inline;
+    margin-left: -70px;
+    color: gray;
+
+}
+.power h1{
+    margin-left: 88px;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-top: -17px;
+}
+.power h2{
+    margin-left: 88px;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-top: -57px;
+
+}
+hr{
+    width: 4%;
+    margin-left: 184px;
+}
+.line2 p{
+    color: gray;
+    margin-left: 180px;
+}
+.line3{
+    margin-top: 60px;
+}
+.line2 h6{
+    color: gray;
+    margin: 0px 180px;
+}
+.line2 i{
+    color: gray;
+    background: none;
+    margin: -29px 190px;
+}
+.power2 #triangle{
+    clip-path: polygon(50% 0%, 0% 57%, 105% 100%);
+    width: 63%;
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    transform: rotate(488deg);
+}
+.power2 button{
+    position: absolute;
+    clip-path: polygon(30% 0%, 0% 97%, 1005% 100%);
+    width: 25%;
+    top: 80%;
+    left: 47%;
+    background-color: #ee4035;
+    color: white;
+    border: none;
+    padding: 30px 15px 30px 10px ;
+    cursor: pointer;
+}
+.power3{
+
+    position: absolute;
+    bottom: 73px;
+    top: 619px;
+    left: 65px;
+    width: 90%;
+    height: 38vh;
+    color: white;
+    font-size: 20px;
+    background:white;
+}
+.power3 p{
+    color: rgb(112, 108, 108);
+    margin: 70px 399px;
+
+}
+.power3 img{
+    height: 5vh;
+    width: 30%;
+}
+.foot{
+
+    position: absolute;
+    bottom: 0;
+    top: 130px;
+    width: 30%;
+    height: 7vh;
+    color: white;
+    margin: 49px 0px;
+    background: rgb(218, 216, 216);
+    background: rgba(207, 200, 200, 0.59);
+}
+.btn{
+    position: relative;
+}
+.btn button{
+    position: absolute;
+    clip-path: polygon(30% 0%, 0% 97%, 1105% 90%);
+    width: 65%;
+    top: 10%;
+    left: 100%;
+    margin-top: -10px;
+    background-color: #ee4035;
+    color: white;
+    border: none;
+    padding: 20px 15px 20px 10px ;
+    cursor: pointer;
+}
